@@ -240,40 +240,36 @@ a.share-button:hover {
     background: #fff
 }
 
-.footer-social-links,
-.home-social-links {
+.footer-social-links {
     display: none;
     margin: 20px 5px; ;
 }
 
-.footer-social-links.visible,
-.home-social-links.visible {
+.footer-social-links.visible{
     display: block
 }
 
-.footer-social-links a,
-.home-social-links a {
+.footer-social-links a {
     color: #5063AB;
     display: inline-block;
     height: 35px;
     line-height: 35px!important;
-    margin: 10px 6px;
+    margin: 0px 6px;
     position: relative;
     text-align: center;
     transition: all .27s cubic-bezier(.3, .1, .58, 1) 0s;
     -webkit-transition: all .27s cubic-bezier(.3, .1, .58, 1) 0s;
     -moz-transition: all .27s cubic-bezier(.3, .1, .58, 1) 0s;
     -o-transition: all .27s cubic-bezier(.3, .1, .58, 1) 0s;
-    width: 35px
+    width: 35px;
 }
 
-.footer-social-links a:hover,
-.home-social-links a {
+.footer-social-links a:hover{
     color: #fff
 }
 
 .home-social-links a:hover {
-    color: #00B0EB
+    color: #5063AB
 }
 
 .footer-social-links a:hover:before {
@@ -284,8 +280,7 @@ a.share-button:hover {
     background: #fff
 }
 
-.footer-social-links a::before,
-.home-social-links a::before {
+.footer-social-links a::before {
     border: 2px solid #5063AB;
     content: "";
     display: inline-block;
@@ -304,17 +299,12 @@ a.share-button:hover {
     width: 100%
 }
 
-.home-social-links a::before {
-    border: 1px solid #fff
-}
 
 .footer-social-links a i,
-.footer-social-links a span,
-.home-social-links a i,
-.home-social-links a span {
-    left: 0;
+.footer-social-links a span{
+    left: 2px;
     position: relative;
-    top: 0
+    top: 2px
 }
 
 @media only screen and (min-width:750px) {
@@ -328,8 +318,7 @@ a.share-button:hover {
 }
 
 @media only screen and (max-width:480px) {
-    .footer-social-links,
-    .home-social-links {
+    .footer-social-links {
         display: block
     }
     .share {
@@ -349,8 +338,7 @@ a.share-button:hover {
 }
 
 @media only screen and (max-width:320px) {
-    .footer-social-links a,
-    .home-social-links a {
+    .footer-social-links a {
         margin: 0 3px
     }
 
